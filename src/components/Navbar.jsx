@@ -24,7 +24,7 @@ const Navbar = () => {
         alt="Menu"
         className='w-[28px] h-[28px] object-contain' 
         onClick={()=>setToggle((prev) => !prev)}/>
-
+          <p>This is nav</p>
         <div
           className={`${toggle? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
